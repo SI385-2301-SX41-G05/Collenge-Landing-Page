@@ -1,0 +1,73 @@
+/* Estilos para el encabezado */
+header {
+  background-color: green;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Logo {
+  display: flex;
+  align-items: center;
+}
+
+.Logo h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.Logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+header > div:last-child {
+  display: flex;
+  align-items: center;
+}
+
+header > div:last-child img {
+  margin-right: 10px;
+}
+
+/* Estilos para la sección */
+section {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+section div {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  color: #333;
+}
+
+section p {
+  color: #666;
+}
