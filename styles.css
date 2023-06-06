@@ -7,6 +7,10 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+body {
+  margin: 0;
+  padding: 0;
+}
 
 /*logo*/
 .Logo {
@@ -18,14 +22,14 @@ header {
   margin: 0;
   font-size: 24px;
   display: flex;
-  align-items: center; /* Add this line to align the logo text vertically with the image */
+  align-items: center; 
 }
 
 .Logo img {
   width: 50px;
   height: 50px;
   margin-right: 10px;
-  order: -1; /* Add this line to change the order of the image */
+  order: -1; 
 }
 
 
@@ -61,45 +65,235 @@ header > div:last-child img {
 }
 
 /* Estilos para la sección */
+/*section 1*/
 #hero {
-  background-color: #ccffcc;
+  background-color:#ffffff;
   width: 100%;
   padding: 20px 0;
   margin: 0;
 }
 
+/*section 2*/
 #about {
-  background-color: #ffffff;
+  background-color:#ccffcc;
   width: 100%;
   padding: 20px 0;
   margin: 0;
 }
 
+.containers2 {
+  text-align: center;
+}
+
+.abou {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+}
+
+.abou img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.abou h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.abou p {
+  font-size: 16px;
+}
+
+.containers2 h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/*section 3*/
 #meals{
-  background-color: #ccffcc;
+  background-color:#ffffff;
+  width: 100%;
+  padding: 20px 0;
+  margin: 0;
+}
+.container3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.container3 h1 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.container3 p {
+  margin: 10px 0;
+}
+
+.container3 img {
+  margin: 10px;
+}
+
+.container3 h2 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+}
+
+
+.feature i {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #00b894;
+}
+
+
+.feature h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.feature p {
+  margin: 10px 0;
+}
+
+.container3 .left-half {
+  width: 50%;
+}
+
+.container3 .right-half {
+  width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .container3 {
+    flex-direction: column;
+  }
+
+  .container3 .left-half,
+  .container3 .right-half {
+    width: 100%;
+  }
+}
+
+/*section 4*/
+#fun{
+  background-color:#ccffcc;
   width: 100%;
   padding: 20px 0;
   margin: 0;
 }
 
-/*diseño de cada section*/
+/*section 5*/
+#plan{
+  background-color:#ffffff;
+  width: 100%;
+  padding: 20px 0;
+  margin: 0;
+}
+
+.containers2 {
+  text-align: center;
+}
+
+.abou {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+}
+
+.abou img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.abou h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.abou p {
+  font-size: 16px;
+}
+
+.container5 {
+  text-align: center;
+}
+
+.container5 h1 {
+  margin: 20px 0;
+}
+
+.container5 .plan {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+}
+
+.container5 .plan h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.container5 .plan p {
+  font-size: 16px;
+}
 
 
-.containers {
+/*Botones*/
+button {
+  background-color: #006400;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+
+/*Footer*/
+
+footer {
+  background-color: green;
+}
+
+.containerf {
   max-width: 960px;
   margin: 0 auto;
-  padding: 0 20px;
-  text-align: center; /* Centrar el contenido del contenedor */
+  padding: 20px;
+  text-align: center;
 }
 
-.containers h1 {
-  margin-bottom: 20px; /* Agregar espacio inferior al título h3 */
+.social-media {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
-.containers div {
-  margin-bottom: 10px; /* Agregar espacio inferior a los div */
+.social-media li {
+  margin-right: 10px;
 }
 
-.containers p {
-  margin: 0; /* Eliminar el margen superior e inferior de los párrafos */
+.social-media a {
+  color: white;
+  font-size: 20px;
+}
+
+.p1 {
+  color: white;
 }
